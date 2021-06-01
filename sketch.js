@@ -182,6 +182,16 @@ function draw(){
 drawSprites();
 }
 
+  function reset(){
+  gameState = PLAY;
+  gameover.visible = false;
+  restart.visible = false;
   
+  man.addImage("scaredManImg");
+
+  score = 0;
+  
+}
+
 
 
