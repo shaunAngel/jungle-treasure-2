@@ -31,7 +31,7 @@ function setup(){
   
   man = createSprite(600,600,20,20);
   man.addImage(scaredManImg);
-  man.scale = 0.3
+  man.scale = 1
   man.debug = true;
   man.setCollider("circle",0,0,90);
 
